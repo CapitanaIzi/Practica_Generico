@@ -18,8 +18,8 @@ for (let i = 0; i < cantIntentos; i++) {
     }
 }
 
-if (numIngresado == numeroSecreto) {
-    console.log("Felicidades :D");
-} else {
+if (numIngresado != numeroSecreto) {
     console.log("Game over :c");
-}
+} 
+
+// != eso es distinto
